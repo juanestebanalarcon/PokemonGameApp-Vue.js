@@ -1,5 +1,4 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
   <PokemonPage/>
 </template>
 
@@ -9,7 +8,6 @@ import PokemonPage from './pages/PokemonPage.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     PokemonPage
   }
 }
